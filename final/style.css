@@ -71,8 +71,29 @@ header.sticky .navigation a:hover{
   color: #000;
 }
 
+.menu-btn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+.close-btn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
 /*================= END HEADER ===================== */
 
+/*================= HOME SECTION ===================== */
 section{
   padding: 100px 200px;
 }
@@ -147,7 +168,7 @@ section{
   50%{
     margin-top:-140px;
   }
-  750%{
+  75%{
     margin-top:-70px;
   }
   100%{
@@ -184,10 +205,19 @@ section{
   margin-left: 30px;
 }
 
+.media-icons a:hover{
+  color:#3a6cf4;
+  font-size: 25px;
+  margin-left: 30px;
+}
 
 body{
   min-height: 110vh;
 }
+
+/*================= END HOME SECTION ===================== */
+
+/*================= TITLE CONFIGURATION ===================== */
 
 .title{
   width: 100%;
@@ -226,6 +256,10 @@ body{
   background: #3a6cf4;
   transform: translateX(-50%);
 }
+
+/*================= END TITLE CONFIGURATION ===================== */
+
+/*================= ABOUT SECTION ===================== */
 
 .about .content{
   position: relative;
@@ -270,6 +304,10 @@ body{
 .about .content .col-right .paragraph-text{
   font-size: 1.5em;
 }
+
+/*================= END ABOUT SECTION ===================== */
+
+/*================= SKILLS SECTION ===================== */
 
 .skills{
   background: #000016;
@@ -348,6 +386,10 @@ body{
   background:  #6d7eb8;
 }
 
+/*================= END SKILLS SECTION ===================== */
+
+/*================= SERVICE SECTION ===================== */
+
 .services .content{
   display: flex;
   justify-content: center;
@@ -394,6 +436,11 @@ body{
   margin: 10px;
 }
 
+/*================= END SERVICES SECTION ===================== */
+
+
+/*================= WORK SECTION ===================== */
+
 .work{
   background: #000016;
 }
@@ -435,6 +482,10 @@ body{
 .work .content .card .card-img img:hover{
   transform: scale(1.2);
 }
+
+/*================= END WORK SECTION ===================== */
+
+/*================= CONTACT SECTION ===================== */
 
 .contact .content{
   display: flex;
@@ -545,6 +596,10 @@ body{
   background: #235bf6;
 }
 
+/*================= END CONTACT SECTION ===================== */
+
+/*================= FOOTER SECTION ===================== */
+
 .footer{
   background: #000016;
   color: #fff;
@@ -568,28 +623,9 @@ body{
   text-decoration: none;
 }
 
-.menu-btn {
-	font-size: 30px;
-	color: white;
-	float: right;
-	line-height: 80px;
-	margin-right: 40px;
-	cursor: pointer;
-	display: none;
-}
+/*================= END FOOTER SECTION ===================== */
 
-.close-btn {
-	font-size: 30px;
-	color: white;
-	float: right;
-	line-height: 80px;
-	margin-right: 40px;
-	cursor: pointer;
-	display: none;
-}
-
-
-
+/*================= MOBILE FIRST ===================== */
 
 @media (max-width: 1040px){
   header{
